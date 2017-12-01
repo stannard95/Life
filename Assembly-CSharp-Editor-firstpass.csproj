@@ -48,6 +48,8 @@
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\CNControls\Editor\AdditionaHelpingGuidance.cs" />
      <Compile Include="Assets\Standard Assets\CNControls\Editor\ErrorPopupWindow.cs" />
+     <None Include="Assets\TSF\Shaders\TSFOutline.shader" />
+     <None Include="Assets\TSF\Shaders\TSF.shader" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>

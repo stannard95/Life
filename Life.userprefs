@@ -1,8 +1,8 @@
-﻿<Properties StartupItem="Assembly-CSharp-firstpass.csproj">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\CNControls\Scripts\Controllers\Dpad.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerMove.cs">
     <Files>
-      <File FileName="Assets\Standard Assets\CNControls\Scripts\Controllers\Dpad.cs" Line="24" Column="97" />
+      <File FileName="Assets\Scripts\PlayerMove.cs" Line="19" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
