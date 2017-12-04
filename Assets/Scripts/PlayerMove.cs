@@ -14,9 +14,9 @@ public class PlayerMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		moveDirection = new Vector3(CnInputManager.GetAxis("Horizontal"), 0, CnInputManager.GetAxis("Vertical"));
-		moveDirection = transform.TransformDirection(moveDirection);
-		moveDirection *= walkSpeed;
-		controller.Move(moveDirection * Time.deltaTime);
+		moveDirection = new Vector3 (CnInputManager.GetAxis ("Horizontal"), 0, CnInputManager.GetAxis ("Vertical"));
+		moveDirection = transform.TransformDirection (moveDirection);
+		controller.Move (moveDirection * Time.deltaTime * walkSpeed);
+
 	}
 }
